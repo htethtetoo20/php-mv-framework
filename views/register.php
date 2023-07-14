@@ -1,7 +1,7 @@
 <?php $this->title='Register' ?>
 
 <h1>Create an account</h1>
-<?php use app\core\form\Form;
+<?php use htethtetoo\phpmvc\form\Form;
 $form= Form::begin('','post');
 echo $form->field($model,'firstname');
 echo $form->field($model,'lastname');

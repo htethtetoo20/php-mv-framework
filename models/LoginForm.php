@@ -2,9 +2,9 @@
 
 
 namespace app\models;
-use app\core\Application;
+use htethtetoo\phpmvc\Application;
 
-use app\core\Model;
+use htethtetoo\phpmvc\Model;
 
 class LoginForm extends Model
 {

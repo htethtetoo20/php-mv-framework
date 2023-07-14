@@ -2,11 +2,11 @@
 
 namespace app\controllers;
 
-use app\core\Application;
-use app\core\Controller;
-use app\core\middlewares\AuthMiddleware;
-use app\core\Request;
-use app\core\Response;
+use htethtetoo\phpmvc\Application;
+use htethtetoo\phpmvc\Controller;
+use htethtetoo\phpmvc\middlewares\AuthMiddleware;
+use htethtetoo\phpmvc\Request;
+use htethtetoo\phpmvc\Response;
 use app\models\User;
 use app\models\LoginForm;
 

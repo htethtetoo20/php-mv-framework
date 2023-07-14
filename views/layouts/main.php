@@ -1,8 +1,8 @@
 <?php
 
-use app\core\Application;
+use htethtetoo\phpmvc\Application;
 
-//var_dump(\app\core\Application::$app->user);
+//var_dump(\htethtetoo\phpmvc\Application::$app->user);
 ?>
 <!doctype html>
 <html lang="en">
@@ -52,7 +52,7 @@ use app\core\Application;
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/logout"><?php echo \app\core\Application::$app->user->getDisplayName() ?>
+                    <a class="nav-link" href="/logout"><?php echo \htethtetoo\phpmvc\Application::$app->user->getDisplayName() ?>
                         (logout)
                     </a>
                 </li>
@@ -61,9 +61,9 @@ use app\core\Application;
     <?php endif; ?>
 </nav>
 <div class="container">
-    <?php if (\app\core\Application::$app->session->getFlash('success')):?>
+    <?php if (\htethtetoo\phpmvc\Application::$app->session->getFlash('success')):?>
    <div class="alert alert-success">
-      <?php echo \app\core\Application::$app->session->getFlash('success')?>
+      <?php echo \htethtetoo\phpmvc\Application::$app->session->getFlash('success')?>
    </div>
     <?php endif;?>
 {{content}}

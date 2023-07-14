@@ -3,7 +3,7 @@ require_once __DIR__ . '\..\vendor\autoload.php';
 
 use app\controllers\AuthController;
 use app\controllers\SiteController;
-use app\core\Application;
+use htethtetoo\phpmvc\Application;
 
 $dotenv = Dotenv\Dotenv::createImmutable(dirname(__DIR__));
 $dotenv->load();
